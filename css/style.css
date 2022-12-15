@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Open+Sans:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    font: 15px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 15px;
+    width: 100%;
+    height: 70px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.navbar a {
+    padding: 15px 10px;
+    margin: 0 5px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.mainsection {
+    display: flex;
+     margin: 15px;
+    padding: 15px;
+    
+   
+   
+     
+
+    
+    
+}
+.softimage{
+    width: 100%;
+}
+
+.mainsectionarticle{ 
+
+    width: 75%;
+    
+    margin-right: 20px;
+   
+    
+  
+
+}
+
+.aside{ 
+    background-color:black;
+    width: 25%;
+    line-height: 1.8;
+
+    
+}
+
+.aside h1, .aside h4, .aside p{ 
+    text-align: center;
+}
+
+.aside h1{ 
+    color: hsl(35, 77%, 62%);
+    margin: 10px 0;
+}
+.aside h4{ 
+    color:hsl(36, 100%, 99%);
+}
+
+.aside p{
+    color: hsl(236, 13%, 42%)
+}
+
+.first{ 
+    margin-bottom: 30px;
+ }
+ .second{
+    margin: 30px 0;
+ }
+
+ .third{ 
+    margin: 30px 0;
+ }
+
+ .mainsectionflex{ 
+    display: flex;
+    
+    
+    
+}
+.flexright{
+
+width:100%;
+
+
+}
+.flexright h1{ font-weight:bolder;
+font-size: 40px;}
+
+.flexleft{
+      
+    text-align: center;
+    padding:10px;
+}
+
+.flexleft p{ 
+    margin-bottom: 20px;
+}
+
+button{ 
+    border:none;
+     width: 20%;
+     padding: 5px 0;
+     background-color:hsl(5, 85%, 63%);
+     color: white;
+}
+
+.downside-flex{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+}
+.downside{
+    margin: auto;
+    display: flex;
+}
+.downside h1,h3,p{ margin-bottom: 30px;}
+
+.downside h1{ color:hsl(233, 8%, 79%);}
+.downside-2 h3{ color: hsl(5, 85%, 63%);}
+
+.book{ margin:0 10px;}
+
